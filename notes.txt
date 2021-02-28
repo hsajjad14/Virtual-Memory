@@ -1,0 +1,51 @@
+
+* Allocates a frame to be used for the virtual page represented by p.
+* If all frames are in use, calls the replacement algorithm's
+ evict_fcn to
+* select a victim frame.  Writes victim to swap if needed, and updates
+* pagetable entry for victim to indicate that virtual page is no
+longer in
+* (simulated) physical memory.
+*
+* Counters for evictions should be updated appropriately in this function.
+allocate_frame:
+  - look for empty physical frame to put
+    page into
+  - Didn't find a free page.
+    - get current page in the frame to evict
+    - check if this page has stuff init or if its empty (frame)
+      that (empty) would mean its the very first access. then just access it
+      (check if page is on swap file)
+    - else
+    - write it to swapfile, only if its dirty (been modified) else, no need to
+      put on swapfile
+      - use swap_pageout on frame
+    -
+
+
+find_physpage
+/*
+ * Locate the physical frame number for the given vaddr using the page table.
+ *
+ * If the entry is invalid and not on swap, then this is the first reference
+ * to the page and a (simulated) physical frame should be allocated and
+ * initialized (using init_frame).
+ *
+ * If the entry is invalid and on swap, then a (simulated) physical frame
+ * should be allocated and filled by reading the page data from swap.
+ *
+ * Counters for hit, miss and reference events should be incremented in
+ * this function.
+ */
+
+ - use
+  - unsigned idx = PGDIR_INDEX(vaddr); // get index into page directory
+  - to get index into the page directory, it'll give the page table for the frame
+ - get the physical frame holding vpage from the pdgir[idx]
+ - if its invalid and not on swap then this is the first reference
+   to the page and phys frame should be
+    - allocated and initialized
+ - if the entry is invalid and on swap, then a physical frame should be
+   allocated and filled by reading page data from swap
+ - use  p->frame >> PAGE_SHIFT to get the frame
+ -

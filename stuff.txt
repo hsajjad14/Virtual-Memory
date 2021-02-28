@@ -1,0 +1,855 @@
+mine:
+
+Hit count: 5
+Miss count: 15
+Clean evictions: 0
+Dirty evictions: 0
+Total references : 20
+Hit rate: 25.0000
+Miss rate: 75.0000
+[Inferior 1 (process 14282) exited normally]
+
+li's
+
+Hit count: 5
+Miss count: 15
+Clean evictions: 0
+Dirty evictions: 0
+Total references : 20
+Hit rate: 25.0000
+Miss rate: 75.0000
+[Inferior 1 (process 14411) exited normally]
+
+Starting program: /student/sajjadh2/csc369/a3/repo/group_0261/A3/sim ./sim -f ./traceprogs/tr-simpleloop.ref -m 50 -s 3000 -a rand
+[0]: 0x555555796000
+        [0] - [263]: INVALID
+        [264]: VALID, in frame 12
+        [265] - [775]: INVALID
+        [776]: VALID, in frame 1
+        [777]: VALID, DIRTY, in frame 21
+        [778] - [4095]: INVALID
+[1]: INVALID
+  to
+[3]: INVALID
+[4]: 0x555555764000
+        [0] - [15]: INVALID
+        [16]: VALID, in frame 27
+        [17] - [22]: INVALID
+        [23]: VALID, in frame 4
+        [24] - [30]: INVALID
+        [31]: VALID, in frame 33
+        [32] - [111]: INVALID
+        [112]: VALID, in frame 37
+        [113]: VALID, in frame 23
+        [114] - [550]: INVALID
+        [551]: VALID, in frame 39
+        [552]: VALID, in frame 30
+        [553]: VALID, in frame 16
+        [554]: ONSWAP, at offset 688
+        [555] - [696]: INVALID
+        [697]: VALID, in frame 350077
+        [698] - [2601]: INVALID
+        [2602]: VALID, in frame 17
+        [2603] - [3113]: INVALID
+        [3114]: VALID, in frame 44
+        [3115]: VALID, DIRTY, in frame 25
+        [3116] - [3148]: INVALID
+        [3149]: VALID, in frame 36
+        [3150] - [3181]: INVALID
+        [3182]: VALID, in frame 3
+        [3183]: VALID, in frame 2
+        [3184] - [3258]: INVALID
+        [3259]: VALID, in frame 38
+        [3260] - [3266]: INVALID
+        [3267]: VALID, in frame 7
+        [3268] - [3398]: INVALID
+        [3399]: VALID, in frame 14
+        [3400] - [3419]: INVALID
+        [3420]: VALID, in frame 42
+        [3421] - [4095]: INVALID
+[5]: 0x5555557c8000
+        [0] - [18]: INVALID
+        [19]: VALID, in frame 5
+        [20] - [20]: INVALID
+        [21]: ONSWAP, at offset 208
+        [22]: VALID, in frame 20
+        [23]: VALID, DIRTY, in frame 26
+        [24]: VALID, in frame 32
+        [25]: VALID, in frame 8
+        [26] - [27]: INVALID
+        [28]: VALID, in frame 18
+        [29]: VALID, in frame 35
+        [30]: ONSWAP, at offset 768
+        [31]: ONSWAP, at offset 1232
+        [32]: ONSWAP, at offset 1600
+        [33]: ONSWAP, at offset 752
+        [34]: ONSWAP, at offset 3392
+        [35]: ONSWAP, at offset 1040
+        [36]: ONSWAP, at offset 784
+        [37]: ONSWAP, at offset 720
+        [38]: ONSWAP, at offset 1136
+        [39]: ONSWAP, at offset 1184
+        [40]: ONSWAP, at offset 1296
+        [41]: ONSWAP, at offset 912
+        [42]: ONSWAP, at offset 3952
+        [43]: ONSWAP, at offset 1536
+        [44]: ONSWAP, at offset 2528
+        [45]: ONSWAP, at offset 1056
+        [46]: ONSWAP, at offset 864
+        [47]: ONSWAP, at offset 800
+        [48]: ONSWAP, at offset 832
+        [49]: ONSWAP, at offset 880
+        [50]: ONSWAP, at offset 992
+        [51]: ONSWAP, at offset 1376
+        [52]: ONSWAP, at offset 1216
+        [53]: ONSWAP, at offset 1632
+        [54]: ONSWAP, at offset 1440
+        [55]: ONSWAP, at offset 1008
+        [56]: ONSWAP, at offset 1392
+        [57]: ONSWAP, at offset 1200
+        [58]: ONSWAP, at offset 1616
+        [59]: ONSWAP, at offset 2256
+    ...
+    [2481]: VALID, DIRTY, in frame 28
+     [2482]: ONSWAP, at offset 40752
+     [2483]: ONSWAP, at offset 40160
+     [2484]: ONSWAP, at offset 40048
+     [2485]: ONSWAP, at offset 39984
+     [2486]: ONSWAP, at offset 40432
+     [2487]: ONSWAP, at offset 40896
+     [2488]: ONSWAP, at offset 40016
+     [2489]: ONSWAP, at offset 40288
+     [2490]: ONSWAP, at offset 40592
+     [2491]: ONSWAP, at offset 40272
+     [2492]: ONSWAP, at offset 40208
+     [2493]: ONSWAP, at offset 40176
+     [2494]: ONSWAP, at offset 40336
+     [2495]: ONSWAP, at offset 41024
+     [2496]: VALID, DIRTY, in frame 0
+     [2497]: ONSWAP, at offset 40688
+     [2498]: ONSWAP, at offset 41008
+     [2499]: VALID, DIRTY, in frame 40
+     [2500]: ONSWAP, at offset 41072
+     [2501]: ONSWAP, at offset 40576
+     [2502]: ONSWAP, at offset 40624
+     [2503]: VALID, DIRTY, in frame 49
+     [2504]: VALID, DIRTY, in frame 43
+     [2505]: ONSWAP, at offset 40640
+     [2506]: ONSWAP, at offset 40976
+     [2507]: VALID, DIRTY, in frame 48
+     [2508]: ONSWAP, at offset 40656
+     [2509]: VALID, DIRTY, in frame 10
+     [2510]: ONSWAP, at offset 40496
+     [2511]: ONSWAP, at offset 40880
+     [2512]: VALID, DIRTY, in frame 24
+     [2513]: VALID, DIRTY, in frame 29
+     [2514]: ONSWAP, at offset 40560
+     [2515]: ONSWAP, at offset 40816
+     [2516]: ONSWAP, at offset 40768
+     [2517]: ONSWAP, at offset 40544
+     [2518]: VALID, DIRTY, in frame 6
+     [2519]: ONSWAP, at offset 40960
+     [2520]: ONSWAP, at offset 40928
+     [2521]: VALID, DIRTY, in frame 34
+     [2522]: ONSWAP, at offset 40800
+     [2523]: ONSWAP, at offset 40608
+     [2524]: VALID, DIRTY, in frame 46
+     [2525]: ONSWAP, at offset 40912
+     [2526]: VALID, DIRTY, in frame 9
+     [2527]: VALID, DIRTY, in frame 19
+     [2528]: ONSWAP, at offset 41040
+     [2529] - [4095]: INVALID
+
+Hit count: 7879
+Miss count: 2969
+Clean evictions: 351
+Dirty evictions: 2568
+Total references : 10848
+Hit rate: 72.6309
+Miss rate: 27.3691
+[Inferior 1 (process 15555) exited normally]
+
+ ./sim -f ./traceprogs/tr-simpleloop.ref -m 50 -s 3000 -a rand
+allocate
+-- mine
+ Hit count: 23
+ Miss count: 17
+ Clean evictions: 12
+ Dirty evictions: 0
+ Total references : 40
+ Hit rate: 57.5000
+ Miss rate: 42.5000
+
+ -- li's
+ Hit count: 16
+Miss count: 17
+Clean evictions: 11
+Dirty evictions: 1
+Total references : 40
+Hit rate: 40.0000
+Miss rate: 42.5000
+
+-- the guy's
+Hit count: 12
+Miss count: 25
+Clean evictions: 16
+Dirty evictions: 4
+Total references : 40
+Hit rate: 30.0000
+Miss rate: 62.5000
+
+
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 94019584
+the pgdir index: 5
+the page section is: 1892837360
+the virtual address 94023680
+the pgdir index: 5
+the page section is: 1892837384
+the virtual address 94027776
+the pgdir index: 5
+the page section is: 1892837408
+the virtual address 94031872
+the pgdir index: 5
+the page section is: 1892837432
+the virtual address 94035968
+the pgdir index: 5
+the page section is: 1892837456
+the virtual address 94040064
+the pgdir index: 5
+the page section is: 1892837480
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 94044160
+the pgdir index: 5
+the page section is: 1892837504
+the virtual address 94048256
+the pgdir index: 5
+the page section is: 1892837528
+the virtual address 94052352
+the pgdir index: 5
+the page section is: 1892837552
+the virtual address 94056448
+the pgdir index: 5
+the page section is: 1892837576
+the virtual address 94060544
+the pgdir index: 5
+the page section is: 1892837600
+the virtual address 94064640
+the pgdir index: 5
+the page section is: 1892837624
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 94068736
+the pgdir index: 5
+the page section is: 1892837648
+the virtual address 94072832
+the pgdir index: 5
+the page section is: 1892837672
+the virtual address 94076928
+the pgdir index: 5
+the page section is: 1892837696
+the virtual address 94081024
+the pgdir index: 5
+the page section is: 1892837720
+the virtual address 94085120
+the pgdir index: 5
+the page section is: 1892837744
+the virtual address 94089216
+the pgdir index: 5
+the page section is: 1892837768
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 94093312
+the pgdir index: 5
+the page section is: 1892837792
+the virtual address 94097408
+the pgdir index: 5
+the page section is: 1892837816
+the virtual address 94101504
+the pgdir index: 5
+the page section is: 1892837840
+the virtual address 94105600
+the pgdir index: 5
+the page section is: 1892837864
+the virtual address 94109696
+the pgdir index: 5
+the page section is: 1892837888
+the virtual address 94113792
+the pgdir index: 5
+the page section is: 1892837912
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 94117888
+the pgdir index: 5
+the page section is: 1892837936
+the virtual address 94121984
+the pgdir index: 5
+the page section is: 1892837960
+the virtual address 94126080
+the pgdir index: 5
+the page section is: 1892837984
+the virtual address 94130176
+the pgdir index: 5
+the page section is: 1892838008
+the virtual address 94134272
+the pgdir index: 5
+the page section is: 1892838032
+the virtual address 94138368
+the pgdir index: 5
+the page section is: 1892838056
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 94142464
+the pgdir index: 5
+the page section is: 1892838080
+the virtual address 94146560
+the pgdir index: 5
+the page section is: 1892838104
+the virtual address 94150656
+the pgdir index: 5
+the page section is: 1892838128
+the virtual address 94154752
+the pgdir index: 5
+the page section is: 1892838152
+the virtual address 94158848
+the pgdir index: 5
+the page section is: 1892838176
+the virtual address 94162944
+the pgdir index: 5
+the page section is: 1892838200
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 94167040
+the pgdir index: 5
+the page section is: 1892838224
+the virtual address 94171136
+the pgdir index: 5
+the page section is: 1892838248
+the virtual address 94175232
+the pgdir index: 5
+the page section is: 1892838272
+the virtual address 94179328
+the pgdir index: 5
+the page section is: 1892838296
+the virtual address 94183424
+the pgdir index: 5
+the page section is: 1892838320
+the virtual address 94187520
+the pgdir index: 5
+the page section is: 1892838344
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 94191616
+the pgdir index: 5
+the page section is: 1892838368
+the virtual address 94195712
+the pgdir index: 5
+the page section is: 1892838392
+the virtual address 94199808
+the pgdir index: 5
+the page section is: 1892838416
+the virtual address 94203904
+the pgdir index: 5
+the page section is: 1892838440
+the virtual address 94208000
+the pgdir index: 5
+the page section is: 1892838464
+the virtual address 94212096
+the pgdir index: 5
+the page section is: 1892838488
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 94216192
+the pgdir index: 5
+the page section is: 1892838512
+the virtual address 94220288
+the pgdir index: 5
+the page section is: 1892838536
+the virtual address 94224384
+the pgdir index: 5
+the page section is: 1892838560
+the virtual address 94228480
+the pgdir index: 5
+the page section is: 1892838584
+the virtual address 94232576
+the pgdir index: 5
+the page section is: 1892838608
+the virtual address 94236672
+the pgdir index: 5
+the page section is: 1892838632
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 94240768
+the pgdir index: 5
+the page section is: 1892838656
+the virtual address 3178496
+the pgdir index: 0
+the page section is: 1892591808
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80490496
+the pgdir index: 4
+the page section is: 1892446792
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67571712
+the pgdir index: 4
+the page section is: 1892371096
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83976192
+the pgdir index: 5
+the page section is: 1892778512
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83988480
+the pgdir index: 5
+the page section is: 1892778584
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80490496
+the pgdir index: 4
+the page section is: 1892446792
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 84004864
+the pgdir index: 5
+the page section is: 1892778680
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83980288
+the pgdir index: 5
+the page section is: 1892778536
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80494592
+the pgdir index: 4
+the page section is: 1892446816
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83976192
+the pgdir index: 5
+the page section is: 1892778512
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 69365760
+the pgdir index: 4
+the page section is: 1892381608
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 81031168
+the pgdir index: 4
+the page section is: 1892449960
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80490496
+the pgdir index: 4
+the page section is: 1892446792
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67571712
+the pgdir index: 4
+the page section is: 1892371096
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80007168
+the pgdir index: 4
+the page section is: 1892443960
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80146432
+the pgdir index: 4
+the page section is: 1892444776
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80142336
+the pgdir index: 4
+the page section is: 1892444752
+the virtual address 83976192
+the pgdir index: 5
+the page section is: 1892778512
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80146432
+the pgdir index: 4
+the page section is: 1892444776
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67571712
+the pgdir index: 4
+the page section is: 1892371096
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80142336
+the pgdir index: 4
+the page section is: 1892444752
+the virtual address 84000768
+the pgdir index: 5
+the page section is: 1892778656
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83980288
+the pgdir index: 5
+the page section is: 1892778536
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83984384
+the pgdir index: 5
+the page section is: 1892778560
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67174400
+the pgdir index: 4
+the page section is: 1892368768
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 69369856
+the pgdir index: 4
+the page section is: 1892381632
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67112960
+the pgdir index: 4
+the page section is: 1892368408
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 69373952
+the pgdir index: 4
+the page section is: 1892381656
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67567616
+the pgdir index: 4
+the page section is: 1892371072
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67203072
+the pgdir index: 4
+the page section is: 1892368936
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67235840
+the pgdir index: 4
+the page section is: 1892369128
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 69365760
+the pgdir index: 4
+the page section is: 1892381608
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67174400
+the pgdir index: 4
+the page section is: 1892368768
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 3178496
+the pgdir index: 0
+the page section is: 1892591808
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 69373952
+the pgdir index: 4
+the page section is: 1892381656
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 3182592
+the pgdir index: 0
+the page section is: 1892591832
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80146432
+the pgdir index: 4
+the page section is: 1892444776
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 84000768
+the pgdir index: 5
+the page section is: 1892778656
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80146432
+the pgdir index: 4
+the page section is: 1892444776
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83980288
+the pgdir index: 5
+the page section is: 1892778536
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83984384
+the pgdir index: 5
+the page section is: 1892778560
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83988480
+the pgdir index: 5
+the page section is: 1892778584
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 81117184
+the pgdir index: 4
+the page section is: 1892450464
+the virtual address 67571712
+the pgdir index: 4
+the page section is: 1892371096
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 1081344
+the pgdir index: 0
+the page section is: 1892579520
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 3182592
+the pgdir index: 0
+the page section is: 1892591832
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67174400
+the pgdir index: 4
+the page section is: 1892368768
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 69373952
+the pgdir index: 4
+the page section is: 1892381656
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 3178496
+the pgdir index: 0
+the page section is: 1892591808
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 69365760
+the pgdir index: 4
+the page section is: 1892381608
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 79863808
+the pgdir index: 4
+the page section is: 1892443120
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 77766656
+the pgdir index: 4
+the page section is: 1892430832
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 79867904
+the pgdir index: 4
+the page section is: 1892443144
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 79863808
+the pgdir index: 4
+the page section is: 1892443120
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80146432
+the pgdir index: 4
+the page section is: 1892444776
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 84000768
+the pgdir index: 5
+the page section is: 1892778656
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83980288
+the pgdir index: 5
+the page section is: 1892778536
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83984384
+the pgdir index: 5
+the page section is: 1892778560
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83988480
+the pgdir index: 5
+the page section is: 1892778584
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80146432
+the pgdir index: 4
+the page section is: 1892444776
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 81117184
+the pgdir index: 4
+the page section is: 1892450464
+the virtual address 84000768
+the pgdir index: 5
+the page section is: 1892778656
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67571712
+the pgdir index: 4
+the page section is: 1892371096
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 77766656
+the pgdir index: 4
+the page section is: 1892430832
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 79867904
+the pgdir index: 4
+the page section is: 1892443144
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67174400
+the pgdir index: 4
+the page section is: 1892368768
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 69373952
+the pgdir index: 4
+the page section is: 1892381656
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 79863808
+the pgdir index: 4
+the page section is: 1892443120
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 77766656
+the pgdir index: 4
+the page section is: 1892430832
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 69365760
+the pgdir index: 4
+the page section is: 1892381608
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67567616
+the pgdir index: 4
+the page section is: 1892371072
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 69369856
+the pgdir index: 4
+the page section is: 1892381632
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80146432
+the pgdir index: 4
+the page section is: 1892444776
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80142336
+the pgdir index: 4
+the page section is: 1892444752
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 84000768
+the pgdir index: 5
+the page section is: 1892778656
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83984384
+the pgdir index: 5
+the page section is: 1892778560
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83980288
+the pgdir index: 5
+the page section is: 1892778536
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83963904
+the pgdir index: 5
+the page section is: 1892778440
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80457728
+the pgdir index: 4
+the page section is: 1892446600
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 67571712
+the pgdir index: 4
+the page section is: 1892371096
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80457728
+the pgdir index: 4
+the page section is: 1892446600
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 137422176256
+the pgdir index: 8191
+the page section is: 1892470784
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 84000768
+the pgdir index: 5
+the page section is: 1892778656
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83988480
+the pgdir index: 5
+the page section is: 1892778584
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83984384
+the pgdir index: 5
+the page section is: 1892778560
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 83980288
+the pgdir index: 5
+the page section is: 1892778536
+Error, simulated page returned by pagetable lookup doese not have expected value.
+the virtual address 80146432
+the pgdir index: 4
+the page section is: 1892444776
+Error, simulated page returned by pagetable lookup doese not have expected value.
+[0]: 0x55a970ce6000
+
+
+-- rand
+Hit count: 7879
+Miss count: 2969
+Clean evictions: 351
+Dirty evictions: 2568
+Total references : 10848
+Hit rate: 72.6309
+Miss rate: 27.3691
+
+--fifo
+Hit count: 7914
+Miss count: 2934
+Clean evictions: 308
+Dirty evictions: 2576
+Total references : 10848
+Hit rate: 72.9535
+Miss rate: 27.0465
